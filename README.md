@@ -1,6 +1,6 @@
 # Apache Spark Overview 🚀
 
-This repository contains learning materials and code related to **Apache Spark**, a unified analytics engine for large-scale data processing. The practice and experiments were conducted on **Google Cloud Platform (GCP) Dataproc clusters**, enabling distributed computing in a real-world cloud environment.
+This repository contains learning materials and code related to **Apache Spark**, a unified analytics engine for large-scale data processing. All exercises and experiments were performed using **Google Cloud Platform (GCP) Dataproc clusters**, enabling distributed computing in a real-world cloud environment with **Hadoop Distributed File System (HDFS)** as the underlying storage.
 
 ---
 
@@ -11,6 +11,7 @@ Apache Spark is an open-source distributed computing system that provides fast a
 - High-level APIs: Spark SQL & DataFrames
 - Low-level APIs: RDDs (Resilient Distributed Datasets)
 - Cloud-based execution using GCP Dataproc
+- Data processing on HDFS
 
 ---
 
@@ -39,17 +40,18 @@ Apache Spark is an open-source distributed computing system that provides fast a
 
 ## ☁️ Cloud Setup
 
-- **GCP Dataproc Clusters** were used for Spark cluster deployment.
-- Notebooks and code executed on remote clusters to simulate production-like distributed data processing.
+- **Google Cloud Platform (GCP) Dataproc Clusters** were used to deploy Spark.
+- **Hadoop Distributed File System (HDFS)** served as the primary storage layer for distributed data.
+- Real-world simulation of large-scale data processing pipelines in the cloud.
 
 ---
 
 ## 🛠️ Tools & Tech Stack
 
-- Apache Spark( PySpark)
-- Google Cloud Platform (Dataproc, GCS)
+- Apache Spark(PySpark)
+- Hadoop HDFS
+- Google Cloud Platform (Dataproc)
 - Jupyter Notebook
 - Python
 
 ---
-
